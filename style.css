@@ -13,13 +13,6 @@ h1 {
 
 /* DOT MEANS CLASS :) */
 
-.animals {
-    background: floralwhite;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
 .hidden {
     display: none;
 }
