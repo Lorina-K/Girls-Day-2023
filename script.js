@@ -1,52 +1,68 @@
-// Sobald das Document vom Browser komplett geladen wurde, führe die folgenden Funktionen aus:
+// Klasse a = 
+// Klasse b = 
+
+// Sobald der HTML-Content vom Browser komplett geladen wurde, werden die folgenden Funktionen ausgeführt:
 document.addEventListener("DOMContentLoaded", function(){
-    // Wähle den Button für Hundebilder aus und zeige nur Hunde an, dh blende Katzen aus
-    const buttonDogs = document.querySelector('.buttonDogs');
+    // Wähle den Button für Klasse-a aus und zeige nur Klasse-a-Bilder an
+    const buttonA = document.querySelector();
 
-    buttonDogs.addEventListener('click', function () {
-        // Wähle alle Elemente mit der Klasse '.cat' aus und blende sie aus
-        document.querySelector('.cats').classList.add('hidden');
-        // Wähle alle Elemente mit der Klasse '.dog' aus und zeige sie an
-        document.querySelector('.dogs').classList.remove('hidden');
-
-        // Setze den Hunde-Button auf 'active'
-        document.querySelector('.buttonDogs').classList.add('active');
-        // Deaktiviere den Alle-Button
-        document.querySelector('.buttonAll').classList.remove('active');
-        // Deaktiviere den Katzen-Button
-        document.querySelector('.buttonCats').classList.remove('active');
+    buttonA.addEventListener('click', function () {
+        /**
+        Anzeigen der richtigen Bilder
+        **/
+        // Wähle alle Elemente mit der Klasse '.b' aus und blende sie aus
+        document.querySelector().classList.add();
+        // Wähle alle Elemente mit der Klasse '.a' aus und zeige sie an
+        document.querySelector().classList.remove();
+        
+        /**
+        Anzeigen, dass der Button ausgewählt ist
+        **/
+        // Setze den Button für Klasse-a auf 'active'
+        document.querySelector().classList.add();
+        // Lösche das Attribut 'active' vom Alle-Button
+        document.querySelector().classList.remove();
+        // Lösche das Attribut 'active' vom Button für Klasse-b
+        document.querySelector().classList.remove();
     });
 
-    // Wähle den Katzen-Button aus, und blende alle Hunde aus und alle Katzen ein
-    const buttonCats = document.querySelector('.buttonCats');
+    // Wähle den Button für Klasse-b aus und zeige Klasse-b-Bilder an
+    const buttonB = document.querySelector();
 
-    buttonCats.addEventListener('click', function() {
-        // Wähle alle Elemente mit der Klasse '.dog' aus und blende sie aus
-        document.querySelector('.dogs').classList.add('hidden');
-        // Wähle alle Elemente mit der Klasse '.cat' aus und zeige sie an
-        document.querySelector('.cats').classList.remove('hidden');
+    buttonB.addEventListener('click', function() {
+        /**
+        Anzeigen der richtigen Bilder
+        **/
+        // Wähle alle Elemente mit der Klasse '.a' aus und blende sie aus
+        document.querySelector().classList.add();
+        // Wähle alle Elemente mit der Klasse '.b' aus und zeige sie an
+        document.querySelector().classList.remove();
 
-        // Setze den Katzen-Button auf 'active'
-        document.querySelector('.buttonCats').classList.add('active');
-        // Deaktiviere den Alle-Button
-        document.querySelector('.buttonAll').classList.remove('active');
-        // Deaktiviere den Hunde-Button
-        document.querySelector('.buttonDogs').classList.remove('active');
+        /**
+        Anzeigen, dass der Button ausgewählt ist
+        **/
+        // Setze den Button für Klasse-b auf 'active'
+        document.querySelector().classList.add();
+        // Lösche das Attribut 'active' vom Alle-Button
+        document.querySelector().classList.remove();
+        // Lösche das Attribut 'active' vom Button für Klasse-a
+        document.querySelector().classList.remove();
     });
-
-    const buttonAll = document.querySelector('.buttonAll');
+    
+    // Wähle den Button für alle Bilder und zeige alle Bilder an
+    const buttonAll = document.querySelector();
 
     buttonAll.addEventListener('click', function() {
-        // Wähle alle Elemente mit der Klasse '.dog' aus und zeige sie an
-        document.querySelector('.dogs').classList.remove('hidden');
-        // Wähle alle Elemente mit der Klasse '.cat' aus und zeige sie an
-        document.querySelector('.cats').classList.remove('hidden');
+        // Wähle alle Elemente mit der Klasse '.a' aus und zeige sie an
+        document.querySelector().classList.remove();
+        // Wähle alle Elemente mit der Klasse '.b' aus und zeige sie an
+        document.querySelector().classList.remove();
 
         // Aktiviere den Alle-Button
-        document.querySelector('.buttonAll').classList.add('active');
-        // Deaktiviere den Katzen-Button
-        document.querySelector('.buttonCats').classList.remove('active');
-        // Deaktiviere den Hunde-Button
-        document.querySelector('.buttonDogs').classList.remove('active');
+        document.querySelector().classList.add();
+        // Lösche das Attribut 'active' vom Button für Klasse-a
+        document.querySelector().classList.remove();
+        // Lösche das Attribut 'active' vom Button für Klasse-b
+        document.querySelector().classList.remove();
     });
 });
