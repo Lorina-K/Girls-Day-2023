@@ -9,3 +9,7 @@ tag {
   border-color: black;
 }
 **/
+
+.hidden {
+   visibility: hidden;
+}
